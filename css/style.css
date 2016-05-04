@@ -5,17 +5,19 @@ html {
   box-sizing: inherit;
 }
 
-}
 .top-navigation{
     background-color: #fff;
-
-
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 
 }
 .top-navigation > .content{
     width: 970px;
     margin: 0 auto;
     padding: 0px 15px;
+
+
 
 }
 
@@ -71,19 +73,21 @@ body{
     }
 .content{
     text-align: center;
-    color: white;
     font-weight: 300;
 
 
 }
 section h1{
-    margin-top: 7rem;
+    margin-top: 12rem;
     font-size: 3.0rem;
+    color: white;
+
 
 
 }
 section h3{
     font-size: 1.5rem;
+    color: white;
 
 }
 /*.button{
@@ -108,3 +112,28 @@ button{
 button:hover{
     background-color: #cc5200;
 }
+.cases{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+    font-size: 1.85rem;
+
+}
+
+.cases .devices{
+    width: 21%;
+    display: inline-block;
+    border: 1px solid black;
+    height: 5em;
+
+}
+.devices img{
+    height: 7.938rem;
+    wigth: 7.938rem;
+
+}
+
+
+
+
