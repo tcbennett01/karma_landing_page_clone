@@ -5,21 +5,19 @@ html {
   box-sizing: inherit;
 }
 
+/*********************************
+** Top Navigation Bar           **
+*********************************/
 .top-navigation{
     background-color: #fff;
     position: fixed;
     width: 100%;
     z-index: 9999;
-
 }
 .top-navigation > .content{
     width: 46.162rem;  /*changed from instructions 970px - better fit*/
     margin: 0 auto;
     padding: 0px 15px;
-
-
-
-
 }
 
 .top-navigation .links {
@@ -29,15 +27,11 @@ html {
     font-size: 16px;
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
-
 }
-
 .top-navigation .links li {
     display: inline-blocks;
     letter-spacing: 0.03em;
     margin-left: 25px;
-
-
 }
 
 .top-navigation .links > .active{
@@ -48,16 +42,10 @@ html {
     cursor: pointer;
     color: #333333;
 }
-
-
 .logo{
     height: 70px;
     position: relative;
     float: left;
-
-
-
-
 }
 
 .links li {
@@ -69,7 +57,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*Section: Middle Introduction*/
+/***************************************************
+** Middle: Introduction                           **
+***************************************************/
 }
 .introduction{
     background-image: url('../images/first-background.jpg');
@@ -81,33 +71,21 @@ body{
     height: 45.938rem;
     width: 76.938 rem;
     overflow: auto;
-
     }
 .content{
     text-align: center;
-    font-weight: 300;
-
-
+    font-weight: 100;
 }
 section h1{
     margin-top: 17rem;
     font-size: 3.0rem;
     color: white;
-
-
-
 }
 section h3{
     font-size: 1.5rem;
     color: white;
-
 }
-/*.button{
 
-    width: 9.68rem;
-    margin: 0 auto;
-    text-align: center;
-}*/
 button{
     display: block;
     margin: 0 auto;
@@ -119,11 +97,14 @@ button{
     height: 3.5rem;
     border: none;
     padding: 0 1.25rem;
-
 }
 button:hover{
     background-color: #cc5200;
 }
+
+/******************************************
+** Middle: Devices                       **
+******************************************/
 .cases{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -133,18 +114,13 @@ button:hover{
     /*width: 76.938rem;*/
     height: 470px;*/
     margin-top: 7rem;
-
-
-
 }
-
 .cases .devices{
     width: 19%;
     display: inline-block;
     /*border: 1px solid black;*/
     height: 5em;
     vertical-align: top;
-
 }
 .cases h4{
     font-size: 1.5rem;
@@ -154,47 +130,55 @@ button:hover{
 .devices img{
     height: 7.938rem;
     width: 7.938rem;
-
 }
 
-
-/*Footer Section*/
+/*************************************
+** Bottom:  Footer/Social           **
+*************************************/
 .footer{
     width: 76.938rem;
     height: 19.063rem;
     text-align: center;
-    /*margin-top: 150px;*/
 }
-
+hr {
+    width: 44.287rem;
+    border: 0;
+    border-top: 1px solid #d9d9d9;
+    margin-bottom: 0;
+}
 .social ul{
-    /*border: 1px solid black;
-    background-color: yellow;*/
     display: inline-block;
     width: 44.287rem;
-    height: 5rem;
-
+    height: 4rem;
 }
-
-
 .social li{
     display: inline-block;
-    /*border: 1px solid black;
-    border-radius: 50%;*/
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
     margin: auto 10px;
-
-
 }
-
 .icons{
     margin-top: 0;
     margin-right: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .social i{
     font-size: 1rem;
     margin: .75rem;
-    /*padding: -10px;*/
-
-
 }
-
+.fa-twitter{
+    color: #00aced;;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #517fa4;
+}
+#copyright{
+    color: #8c8c8c;
+    font-size: .85rem;
+    margin-top: 0;
+}
 
