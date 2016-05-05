@@ -81,6 +81,7 @@ body{
     height: 45.938rem;
     width: 76.938 rem;
     overflow: auto;
+
     }
 .content{
     text-align: center;
@@ -129,53 +130,69 @@ button:hover{
     -webkit-font-smoothing: antialiased;
     font-weight: 100;
     font-size: 1.75rem;
+    /*width: 76.938rem;*/
+    height: 470px;*/
+    margin-top: 7rem;
+
 
 
 }
 
 .cases .devices{
-    width: 21%;
+    width: 19%;
     display: inline-block;
     /*border: 1px solid black;*/
     height: 5em;
+    vertical-align: top;
 
+}
+.cases h4{
+    font-size: 1.5rem;
+
+    font-weight: 400;
 }
 .devices img{
     height: 7.938rem;
-    wigth: 7.938rem;
+    width: 7.938rem;
 
 }
+
 
 /*Footer Section*/
 .footer{
     width: 76.938rem;
     height: 19.063rem;
     text-align: center;
-    margin-top: 150px;
+    /*margin-top: 150px;*/
 }
 
 .social ul{
-    border: 1px solid black;
-    background-color: yellow;
+    /*border: 1px solid black;
+    background-color: yellow;*/
     display: inline-block;
     width: 44.287rem;
     height: 5rem;
-    padding-right: 40px;
+
 }
 
 
 .social li{
     display: inline-block;
-    background-color: red;
-    border: 1px solid black;
-    border-radius: 50%;
+    /*border: 1px solid black;
+    border-radius: 50%;*/
+    margin: auto 10px;
+
 
 }
 
+.icons{
+    margin-top: 0;
+    margin-right: 30px;
+}
 .social i{
     font-size: 1rem;
     margin: .75rem;
-    padding: -10px;
+    /*padding: -10px;*/
 
 
 }
