@@ -69,7 +69,7 @@ body{
     background-position: bottom center;
     /*border: 1px solid black;*/
     height: 45.938rem;
-    width: 76.938 rem;
+    width: 76.938rem;
     overflow: auto;
     }
 .content{
@@ -112,7 +112,7 @@ button:hover{
     font-weight: 100;
     font-size: 1.75rem;
     /*width: 76.938rem;*/
-    height: 470px;*/
+    height: 470px;
     margin-top: 7rem;
 }
 .cases .devices{
