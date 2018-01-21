@@ -15,7 +15,7 @@ html {
     z-index: 9999;
 }
 .top-navigation > .content{
-    width: 46.162rem;  /*changed from instructions 970px - better fit*/
+    width: 65em;  /*changed from instructions 970px - better fit*/
     margin: 0 auto;
     padding: 0px 15px;
 }
@@ -66,10 +66,9 @@ body{
 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
-    /*border: 1px solid black;*/
+    background-position: center;
     height: 45.938rem;
-    width: 76.938rem;
+    width: 100%;
     overflow: auto;
     }
 .content{
@@ -176,6 +175,12 @@ hr {
 .fa-instagram{
     color: #517fa4;
 }
+.fa-twitter:hover,
+.fa-facebook:hover,
+.fa-instagram:hover{
+    opacity: 0.5;
+}
+
 #copyright{
     color: #8c8c8c;
     font-size: .85rem;
